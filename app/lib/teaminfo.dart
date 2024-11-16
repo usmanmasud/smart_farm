@@ -65,7 +65,7 @@ class TeamInfoState extends State<TeamInfo> {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: GestureDetector(
-                  onTap: () => launch('github.com/usmanmasud'),
+                  onTap: () => launch(''),
                   child: Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
@@ -79,7 +79,7 @@ class TeamInfoState extends State<TeamInfo> {
                           radius: 50,
                           backgroundColor: Colors.green,
                           backgroundImage: NetworkImage(
-                              'https://avatars.githubusercontent.com/u/60261112?s=400&u=2162485400ab03771599d1b60f78fc8ec87bba92&v=4'),
+                              'https://avatars.githubusercontent.com/u/168911969?v=4'),
                         ),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.end,
@@ -112,7 +112,7 @@ class TeamInfoState extends State<TeamInfo> {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: GestureDetector(
-                  onTap: () => launch('https://github.com/'),
+                  onTap: () => launch(''),
                   child: Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
@@ -149,7 +149,7 @@ class TeamInfoState extends State<TeamInfo> {
                           backgroundColor: Color(0xFFf8b470),
                           radius: 45,
                           backgroundImage: NetworkImage(
-                              'https://avatars.githubusercontent.com/u/52796258?v=4'),
+                              'https://avatars.githubusercontent.com/u/168911969?v=4'),
                         ),
                       ],
                     ),
@@ -159,7 +159,7 @@ class TeamInfoState extends State<TeamInfo> {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: GestureDetector(
-                  onTap: () => launch('https://github.com/'),
+                  onTap: () => launch(''),
                   child: Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
@@ -173,7 +173,7 @@ class TeamInfoState extends State<TeamInfo> {
                           radius: 50,
                           backgroundColor: Colors.green,
                           backgroundImage: NetworkImage(
-                              'https://avatars.githubusercontent.com/u/77778261?v=4'),
+                              'https://avatars.githubusercontent.com/u/168911969?v=4'),
                         ),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.end,
