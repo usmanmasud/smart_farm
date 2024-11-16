@@ -126,7 +126,7 @@ class TeamInfoState extends State<TeamInfo> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Ai fello',
+                              'Sulaiman Sani',
                               style: GoogleFonts.poppins(
                                   fontSize: 24,
                                   color: Colors.white,
@@ -149,7 +149,7 @@ class TeamInfoState extends State<TeamInfo> {
                           backgroundColor: Color(0xFFf8b470),
                           radius: 45,
                           backgroundImage: NetworkImage(
-                              'https://avatars.githubusercontent.com/u/168911969?v=4'),
+                              'https://avatars.githubusercontent.com/u/180438045?v=4'),
                         ),
                       ],
                     ),
