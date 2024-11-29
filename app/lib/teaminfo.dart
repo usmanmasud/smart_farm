@@ -186,7 +186,7 @@ class TeamInfoState extends State<TeamInfo> {
                                   fontWeight: FontWeight.w600),
                             ),
                             Text(
-                              'Data Analyst',
+                              'Product Manager',
                               style: GoogleFonts.poppins(
                                   fontSize: 20,
                                   color: Colors.white,

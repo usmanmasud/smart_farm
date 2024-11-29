@@ -76,7 +76,7 @@ class KisanRakshakState extends State<KisanRakshak> {
                         height: 26,
                       ),
                       Text(
-                        'Sahayak',
+                        'checker',
                         style: GoogleFonts.getFont('Didact Gothic',
                             color: Colors.white,
                             fontWeight: FontWeight.bold,

@@ -261,7 +261,7 @@ class WeatherState extends State<Weather> {
   Future<List<forecast>> getweather() async {
     Position p = await _determinePosition();
     Response r = await get(Uri.parse(
-        "https://api.openweathermap.org/data/2.5/onecall?lat=${p.latitude}&lon=${p.longitude}&exclude=hourly,minutely&appid=03950616c8e14ec65ae1ac8303e71c70"));
+        "https://api.openweathermap.org/data/2.5/onecall?lat=${p.latitude}&lon=${p.longitude}&exclude=hourly,minutely&appid=05b51b52c4af7cffbb27eb363d507bef"));
     //print(r.body);
     Map<String, dynamic> x = jsonDecode(r.body);
     //print(x['current']);
